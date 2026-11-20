@@ -4,7 +4,7 @@ An end-to-end **DevSecOps project**. Terraform creates the AWS EKS cluster, a Je
 
 ## 🏗️ Architecture
 
-![Architecture Diagram](2048-Project.png)
+![Architecture Diagram](architecture.png)
 
 > The diagram shows the full target design (including optional monitoring and notifications). The steps below cover what is implemented in this project: **GitHub → Jenkins → SonarQube → Trivy → Docker Hub → EKS**.
 
