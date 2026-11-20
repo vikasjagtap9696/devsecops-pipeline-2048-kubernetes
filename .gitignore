@@ -1,0 +1,23 @@
+# Dependencies and build output
+node_modules/
+build/
+
+# Terraform local data and state
+EKS_TERRAFORM/.terraform/
+EKS_TERRAFORM/.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+
+# Local secrets and kubeconfig files
+secret.txt
+.env
+.env.*
+!.env.example
+.kube/
+
+# Tool and OS files
+.DS_Store
+Thumbs.db
+*.log
